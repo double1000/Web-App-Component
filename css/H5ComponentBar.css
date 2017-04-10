@@ -1,0 +1,58 @@
+/*柱形图组件样式*/
+.h5_component_bar{}
+.h5_component_bar .line{
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.h5_component_bar .name{
+    width: 60px;
+    float: left;
+    color: #000;
+    text-align: justify;
+   /* position: absolute;
+    left: -60px;*/
+}
+
+.h5_component_bar .rate{
+    height: 15px;
+    float: left;
+    margin-left: 7px;
+    position: relative;
+    margin-right: 5px;
+}
+.h5_component_bar .rate .bg{
+    background-color: #99c0ff;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+.h5_component_bar .per{
+    width: 20px;
+    color: #99c0ff;
+    float: left;
+ /*   position: absolute;
+    right: -20px;*/
+}
+
+.h5_component_bar_load .rate .bg{
+    -webkit-transition: all 1s 600ms;
+    transition:all 1s 600ms;
+    width: 100%;
+    border-radius: 3px;
+}
+.h5_component_bar_load .per{
+    -webkit-transition: all 1s 500ms;
+    transition:all 1s 500ms;
+    opacity: 1;
+}
+.h5_component_bar_leave .rate .bg{
+    -webkit-transition: all 200ms;
+    transition:all 200ms;
+    width: 0%;
+}
+.h5_component_bar_leave .per{
+    opacity: 0;
+}

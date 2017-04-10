@@ -1,0 +1,36 @@
+img,div,body{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    background: #e0e0e0;
+}
+.h5_page{
+    background-image: url("../imgs/page_bg.png");
+}
+.h5_page_face{
+    background-image: url('../imgs/face_bg.png');
+}
+.h5_component_name_slogan{
+    -webkit-animation: rock 2s infinite 2s;
+    animation: rock 2s infinite 2s;
+}
+.h5_component_name_caption{
+    background-image: url('../imgs/page_caption_bg.png');
+    width: 283px;
+    height: 160px;
+    text-align: center;
+    line-height: 140px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.h5_component_name_back{
+    top:30px;
+    -webkit-animation: back 2s infinite 2s;
+    animation: back 2s infinite 2s;
+}
+.h5_component_name_msg{
+    font-size: 18px;
+}
